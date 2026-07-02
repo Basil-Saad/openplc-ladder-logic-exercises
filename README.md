@@ -153,3 +153,17 @@ Through these exercises, the following industrial automation and PLC programming
 - ✅ Industrial Control Logic Design
 - ✅ PLC Troubleshooting and Testing
 - ✅ Automation System Documentation
+
+---
+
+# ⚙️ Technologies Used
+
+| Category | Technology |
+|----------|------------|
+| PLC Simulator | OpenPLC Simulator |
+| Programming Standard | IEC 61131-3 |
+| PLC Language | Ladder Logic (LD) |
+| Development Environment | OpenPLC Editor |
+| Operating System | Windows |
+| Documentation | Markdown |
+| Version Control | Git & GitHub |
