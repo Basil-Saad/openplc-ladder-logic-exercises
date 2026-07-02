@@ -113,3 +113,108 @@ openplc-ladder-logic-exercises/
 | 08 | Dynamic Timer Presets | Timer preset selection using MOVE | `exercise-08-dynamic-timer-presets` |
 | 09 | Sequential Motor Startup | Time-delayed motor sequencing | `exercise-09-sequential-motor-startup` |
 | 10 | Comparison Logic | Inventory monitoring using GT comparison | `exercise-10-comparison-logic` |
+
+
+## 🖼️ Exercise Gallery
+
+The following gallery presents the implementation of all Ladder Logic exercises developed using the **OpenPLC Editor**. Each exercise focuses on a specific industrial automation concept defined by the **IEC 61131-3** standard.
+
+---
+
+### Exercise 01 — AND Logic (Safety Interlock)
+
+<p align="center">
+  <img src="images/exercise-01-and-logic.png" alt="Exercise 01" width="900">
+</p>
+
+Series contacts are used to activate the output only when both input conditions are satisfied.
+
+---
+
+### Exercise 02 — OR Logic (Remote Control)
+
+<p align="center">
+  <img src="images/exercise-02-or-logic.png" alt="Exercise 02" width="900">
+</p>
+
+Parallel branches allow the output to be activated from multiple independent input sources.
+
+---
+
+### Exercise 03 — Latching Circuit (Seal-in)
+
+<p align="center">
+  <img src="images/exercise-03-latching-circuit.png" alt="Exercise 03" width="900">
+</p>
+
+Implements a Start/Stop circuit using output feedback to maintain the system state.
+
+---
+
+### Exercise 04 — TON Timer
+
+<p align="center">
+  <img src="images/exercise-04-ton-timer.png" alt="Exercise 04" width="900">
+</p>
+
+Demonstrates delayed output activation using the TON (On-Delay Timer) function block.
+
+---
+
+### Exercise 05 — CTU Counter
+
+<p align="center">
+  <img src="images/exercise-05-ctu-counter.png" alt="Exercise 05" width="900">
+</p>
+
+Counts input events and activates an output after reaching the specified preset value.
+
+---
+
+### Exercise 06 — Rising Edge Toggle
+
+<p align="center">
+  <img src="images/exercise-06-rising-edge-toggle.png" alt="Exercise 06" width="900">
+</p>
+
+Uses the **R_TRIG** function block to detect a rising edge and toggle the output state.
+
+---
+
+### Exercise 07 — Master Control Switch
+
+<p align="center">
+  <img src="images/exercise-07-master-control-switch.png" alt="Exercise 07" width="900">
+</p>
+
+Implements a master emergency stop using a Normally Closed safety contact.
+
+---
+
+### Exercise 08 — Dynamic Timer Presets
+
+<p align="center">
+  <img src="images/exercise-08-dynamic-timer-presets.png" alt="Exercise 08" width="900">
+</p>
+
+Changes timer preset values dynamically using the MOVE instruction.
+
+---
+
+### Exercise 09 — Sequential Motor Startup
+
+<p align="center">
+  <img src="images/exercise-09-sequential-motor-startup.png" alt="Exercise 09" width="900">
+</p>
+
+Implements a safe sequential startup for two motors using timer-based control.
+
+---
+
+### Exercise 10 — Comparison Logic
+
+<p align="center">
+  <img src="images/exercise-10-comparison-logic.png" alt="Exercise 10" width="900">
+</p>
+
+Uses comparison instructions to monitor process values and activate outputs based on predefined thresholds.
