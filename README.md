@@ -34,3 +34,28 @@ A collection of practical OpenPLC Ladder Logic exercises developed with the Open
 </div>
 
 ---
+
+## 📖 Project Overview
+
+This repository contains a collection of **10 practical Ladder Logic exercises** developed using the **OpenPLC Editor** and based on the **IEC 61131-3** standard.
+
+The exercises were designed to strengthen fundamental PLC programming skills commonly used in industrial automation. Each exercise focuses on a specific control concept and includes the corresponding OpenPLC project files together with a visual screenshot of the implemented ladder diagram.
+
+The covered topics include:
+
+- Basic logic operations (AND / OR)
+- Latching (Seal-in) circuits
+- TON (On-Delay) timers
+- CTU (Count Up) counters
+- Rising edge detection (R_TRIG)
+- Master control and safety interlocks
+- Dynamic timer preset manipulation
+- Sequential motor startup
+- Comparison instructions (GT)
+
+### Project Objectives
+
+- Develop practical PLC programming skills.
+- Apply industrial automation concepts using Ladder Logic.
+- Practice implementing IEC 61131-3 programming standards.
+- Build a reusable collection of OpenPLC examples for learning and reference.
