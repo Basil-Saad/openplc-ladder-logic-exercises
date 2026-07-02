@@ -98,3 +98,18 @@ openplc-ladder-logic-exercises/
     ├── exercise-09-sequential-motor-startup/
     └── exercise-10-comparison-logic/
 ```
+
+## 📝 Exercise List
+
+| # | Exercise | Industrial Concept | OpenPLC Project |
+|:-:|-----------|-------------------|-----------------|
+| 01 | AND Logic | Safety Interlock using series contacts | `exercise-01-and-logic` |
+| 02 | OR Logic | Remote motor control using parallel branches | `exercise-02-or-logic` |
+| 03 | Latching Circuit | Start/Stop seal-in control | `exercise-03-latching-circuit` |
+| 04 | TON Timer | Delayed machine startup | `exercise-04-ton-timer` |
+| 05 | CTU Counter | Conveyor box counting system | `exercise-05-ctu-counter` |
+| 06 | Rising Edge Toggle | Toggle control using R_TRIG | `exercise-06-rising-edge-toggle` |
+| 07 | Master Control Switch | Safety interlock with NC master stop | `exercise-07-master-control-switch` |
+| 08 | Dynamic Timer Presets | Timer preset selection using MOVE | `exercise-08-dynamic-timer-presets` |
+| 09 | Sequential Motor Startup | Time-delayed motor sequencing | `exercise-09-sequential-motor-startup` |
+| 10 | Comparison Logic | Inventory monitoring using GT comparison | `exercise-10-comparison-logic` |
