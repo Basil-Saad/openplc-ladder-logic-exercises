@@ -59,3 +59,42 @@ The covered topics include:
 - Apply industrial automation concepts using Ladder Logic.
 - Practice implementing IEC 61131-3 programming standards.
 - Build a reusable collection of OpenPLC examples for learning and reference.
+
+## 📂 Project Structure
+
+The repository is organized into three main sections:
+
+- **`images/`** — Screenshots of the completed Ladder Logic exercises.
+- **`openplc/`** — OpenPLC project files for each exercise.
+- **`README.md`** — Project documentation and exercise overview.
+
+```text
+openplc-ladder-logic-exercises/
+│
+├── README.md
+├── LICENSE
+│
+├── images/
+│   ├── exercise-01-and-logic.png
+│   ├── exercise-02-or-logic.png
+│   ├── exercise-03-latching-circuit.png
+│   ├── exercise-04-ton-timer.png
+│   ├── exercise-05-ctu-counter.png
+│   ├── exercise-06-rising-edge-toggle.png
+│   ├── exercise-07-master-control-switch.png
+│   ├── exercise-08-dynamic-timer-presets.png
+│   ├── exercise-09-sequential-motor-startup.png
+│   └── exercise-10-comparison-logic.png
+│
+└── openplc/
+    ├── exercise-01-and-logic/
+    ├── exercise-02-or-logic/
+    ├── exercise-03-latching-circuit/
+    ├── exercise-04-ton-timer/
+    ├── exercise-05-ctu-counter/
+    ├── exercise-06-rising-edge-toggle/
+    ├── exercise-07-master-control-switch/
+    ├── exercise-08-dynamic-timer-presets/
+    ├── exercise-09-sequential-motor-startup/
+    └── exercise-10-comparison-logic/
+```
