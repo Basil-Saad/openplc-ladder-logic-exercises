@@ -131,3 +131,25 @@ Each exercise includes its corresponding OpenPLC project and a screenshot of the
 | **Exercise 08 – Dynamic Timer Presets** | <img src="./images/exercise-08-dynamic-timer-presets.jpg" width="700"> |
 | **Exercise 09 – Sequential Motor Startup** | <img src="./images/exercise-09-sequential-motor-startup.jpg" width="700"> |
 | **Exercise 10 – Comparison Logic** | <img src="./images/exercise-10-comparison-logic.jpg" width="700"> |
+
+---
+
+# 🧠 Skills Demonstrated
+
+Through these exercises, the following industrial automation and PLC programming skills are demonstrated:
+
+- ✅ IEC 61131-3 Ladder Logic Programming
+- ✅ OpenPLC Simulator Development
+- ✅ Boolean Logic (AND / OR)
+- ✅ Latching (Seal-in) Circuits
+- ✅ TON (On-Delay) Timers
+- ✅ CTU (Count Up) Counters
+- ✅ Rising Edge Detection (R_TRIG)
+- ✅ Toggle Circuit Design
+- ✅ Master Control (Emergency Stop) Logic
+- ✅ Dynamic Timer Presets using Variables
+- ✅ Sequential Motor Control
+- ✅ Comparison Instructions (Greater Than)
+- ✅ Industrial Control Logic Design
+- ✅ PLC Troubleshooting and Testing
+- ✅ Automation System Documentation
