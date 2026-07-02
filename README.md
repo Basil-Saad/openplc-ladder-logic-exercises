@@ -167,3 +167,21 @@ Through these exercises, the following industrial automation and PLC programming
 | Operating System | Windows |
 | Documentation | Markdown |
 | Version Control | Git & GitHub |
+
+---
+
+# 🚀 How to Run the Exercises
+
+1. Install **OpenPLC Editor** or **OpenPLC Simulator**.
+2. Clone this repository or download it as a ZIP file.
+3. Open the desired exercise folder from:
+
+   ```text
+   openplc/
+   ```
+
+4. Load the project into OpenPLC.
+5. Compile and run the Ladder Logic program.
+6. Compare the implementation with the corresponding screenshot in the `images/` folder.
+
+> **Note:** Each exercise is independent and can be executed separately without relying on other exercises.
