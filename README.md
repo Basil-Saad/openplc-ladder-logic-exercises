@@ -75,16 +75,16 @@ openplc-ladder-logic-exercises/
 ├── LICENSE
 │
 ├── images/
-│   ├── exercise-01-and-logic.png
-│   ├── exercise-02-or-logic.png
-│   ├── exercise-03-latching-circuit.png
-│   ├── exercise-04-ton-timer.png
-│   ├── exercise-05-ctu-counter.png
-│   ├── exercise-06-rising-edge-toggle.png
-│   ├── exercise-07-master-control-switch.png
-│   ├── exercise-08-dynamic-timer-presets.png
-│   ├── exercise-09-sequential-motor-startup.png
-│   └── exercise-10-comparison-logic.png
+│   ├── exercise-01-and-logic.jpg
+│   ├── exercise-02-or-logic.jpg
+│   ├── exercise-03-latching-circuit.jpg
+│   ├── exercise-04-ton-timer.jpg
+│   ├── exercise-05-ctu-counter.jpg
+│   ├── exercise-06-rising-edge-toggle.jpg
+│   ├── exercise-07-master-control-switch.jpg
+│   ├── exercise-08-dynamic-timer-presets.jpg
+│   ├── exercise-09-sequential-motor-startup.jpg
+│   └── exercise-10-comparison-logic.jpg
 │
 └── openplc/
     ├── exercise-01-and-logic/
@@ -115,106 +115,19 @@ openplc-ladder-logic-exercises/
 | 10 | Comparison Logic | Inventory monitoring using GT comparison | `exercise-10-comparison-logic` |
 
 
-## 🖼️ Exercise Gallery
+## 📷 Exercise Gallery
 
-The following gallery presents the implementation of all Ladder Logic exercises developed using the **OpenPLC Editor**. Each exercise focuses on a specific industrial automation concept defined by the **IEC 61131-3** standard.
+Each exercise includes its corresponding OpenPLC project and a screenshot of the implemented Ladder Logic.
 
----
-
-### Exercise 01 — AND Logic (Safety Interlock)
-
-<p align="center">
-  <img src="images/exercise-01-and-logic.png" alt="Exercise 01" width="900">
-</p>
-
-Series contacts are used to activate the output only when both input conditions are satisfied.
-
----
-
-### Exercise 02 — OR Logic (Remote Control)
-
-<p align="center">
-  <img src="images/exercise-02-or-logic.png" alt="Exercise 02" width="900">
-</p>
-
-Parallel branches allow the output to be activated from multiple independent input sources.
-
----
-
-### Exercise 03 — Latching Circuit (Seal-in)
-
-<p align="center">
-  <img src="images/exercise-03-latching-circuit.png" alt="Exercise 03" width="900">
-</p>
-
-Implements a Start/Stop circuit using output feedback to maintain the system state.
-
----
-
-### Exercise 04 — TON Timer
-
-<p align="center">
-  <img src="images/exercise-04-ton-timer.png" alt="Exercise 04" width="900">
-</p>
-
-Demonstrates delayed output activation using the TON (On-Delay Timer) function block.
-
----
-
-### Exercise 05 — CTU Counter
-
-<p align="center">
-  <img src="images/exercise-05-ctu-counter.png" alt="Exercise 05" width="900">
-</p>
-
-Counts input events and activates an output after reaching the specified preset value.
-
----
-
-### Exercise 06 — Rising Edge Toggle
-
-<p align="center">
-  <img src="images/exercise-06-rising-edge-toggle.png" alt="Exercise 06" width="900">
-</p>
-
-Uses the **R_TRIG** function block to detect a rising edge and toggle the output state.
-
----
-
-### Exercise 07 — Master Control Switch
-
-<p align="center">
-  <img src="images/exercise-07-master-control-switch.png" alt="Exercise 07" width="900">
-</p>
-
-Implements a master emergency stop using a Normally Closed safety contact.
-
----
-
-### Exercise 08 — Dynamic Timer Presets
-
-<p align="center">
-  <img src="images/exercise-08-dynamic-timer-presets.png" alt="Exercise 08" width="900">
-</p>
-
-Changes timer preset values dynamically using the MOVE instruction.
-
----
-
-### Exercise 09 — Sequential Motor Startup
-
-<p align="center">
-  <img src="images/exercise-09-sequential-motor-startup.png" alt="Exercise 09" width="900">
-</p>
-
-Implements a safe sequential startup for two motors using timer-based control.
-
----
-
-### Exercise 10 — Comparison Logic
-
-<p align="center">
-  <img src="images/exercise-10-comparison-logic.png" alt="Exercise 10" width="900">
-</p>
-
-Uses comparison instructions to monitor process values and activate outputs based on predefined thresholds.
+| Exercise | Preview |
+|----------|---------|
+| **Exercise 01 – AND Logic (Safety Interlock)** | <img src="./images/exercise-01-and-logic.jpg" width="700"> |
+| **Exercise 02 – OR Logic (Remote Control)** | <img src="./images/exercise-02-or-logic.jpg" width="700"> |
+| **Exercise 03 – Latching Circuit** | <img src="./images/exercise-03-latching-circuit.jpg" width="700"> |
+| **Exercise 04 – TON Timer** | <img src="./images/exercise-04-ton-timer.jpg" width="700"> |
+| **Exercise 05 – CTU Counter** | <img src="./images/exercise-05-ctu-counter.jpg" width="700"> |
+| **Exercise 06 – Rising Edge Toggle** | <img src="./images/exercise-06-rising-edge-toggle.jpg" width="700"> |
+| **Exercise 07 – Master Control Switch** | <img src="./images/exercise-07-master-control-switch.jpg" width="700"> |
+| **Exercise 08 – Dynamic Timer Presets** | <img src="./images/exercise-08-dynamic-timer-presets.jpg" width="700"> |
+| **Exercise 09 – Sequential Motor Startup** | <img src="./images/exercise-09-sequential-motor-startup.jpg" width="700"> |
+| **Exercise 10 – Comparison Logic** | <img src="./images/exercise-10-comparison-logic.jpg" width="700"> |
