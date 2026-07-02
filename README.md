@@ -185,3 +185,9 @@ Through these exercises, the following industrial automation and PLC programming
 6. Compare the implementation with the corresponding screenshot in the `images/` folder.
 
 > **Note:** Each exercise is independent and can be executed separately without relying on other exercises.
+
+---
+
+# 📄 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
