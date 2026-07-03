@@ -189,5 +189,4 @@ Through these exercises, the following industrial automation and PLC programming
 ---
 
 # 📄 License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+Licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
